@@ -1,1 +1,2166 @@
-../HW1.lyx
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+\lyxformat 345
+\begin_document
+\begin_header
+\textclass heb-article
+\begin_preamble
+\usepackage{fullpage}
+\end_preamble
+\use_default_options true
+\language hebrew
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\author "" 
+\author "" 
+\end_header
+
+\begin_body
+
+\begin_layout Title
+הגנה במערכות מתוכנתות - ש.ב.
+
+\family roman
+\series medium
+\shape up
+\size largest
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\noun default
+\color inherit
+1
+\end_layout
+
+\begin_layout Author
+צפריר ריהן 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+
+\end_layout
+
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size large
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\noun default
+\color inherit
+039811880
+\numeric off
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+and 
+\backslash
+R{גיא שקד}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+
+\end_layout
+
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size large
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\noun default
+\color inherit
+036567055
+\end_layout
+
+\begin_layout Enumerate
+וירוס
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+\lang english
+ILOVEYOU
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+הוירוס החל לפעול ב-
+\lang english
+4.5.2000
+\end_layout
+
+\begin_layout Enumerate
+הוירוס מנצל מספר נקודות תורפה - 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+הנדסה חברתית - הוירוס מופץ באמצעות הדואר האלקטרוני, עם הכותרת
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+\lang english
+ILOVEYOU
+\lang hebrew
+.
+ הודעה עם כותרת כזו משולח מוכר גרמה למשתמשים רבים לפתוח את ההודעה וליפול
+ בפח.
+ באופן דומה, הוירוס הופץ גם באמצעות שליחת קבצים באמצעות תוכנת הצ'אט
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+\lang english
+mIRC
+\lang hebrew
+, הוירוס שלח עצמו לכל משתמש שהצטרף לערוץ שבו המשתמש הנגוע נמצא.
+\end_layout
+
+\begin_layout Itemize
+הסתרת סיומות - במערכת ההפעלה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+\lang english
+windows
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+סיומות קבצים מוכרות מוסתרות בברירת מחדל.
+ הקובץ שצורף להודעה הכיל סיומת כפולה -
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+\lang english
+LOVE-LETTER-FOR-YOU.TXT.vbs
+\lang hebrew
+, הסיומת האחרונה )
+\lang english
+vbs
+\lang hebrew
+( הוסתרה על ידי מערכת ההפעלה והמשתמש חשב שמדובר בקובץ טקסט תמים על בסיס
+ השם שהוצג לו.
+\end_layout
+
+\begin_layout Itemize
+הפעלה אוטומטית של קבצי
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+\lang english
+vbs
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+- במערכת ההפעלה 
+\lang english
+windows
+\lang hebrew
+, "פתיחה" של קובץ עם סיומת
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+\lang english
+vbs
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+מפעילה את הסקריפט המצוי בקובץ עם הרשאות המשתמש )ברוב המוחלט של המקרים -
+ הרשאות מנהל(.
+ כך משתמש שניסה לפתוח )לקרא( את "מכתב האהבה" למעשה הפעיל מבלי ידיעתו סקריפט
+ )תוכנה( עם הרשאות מלאות.
+\end_layout
+
+\begin_layout Itemize
+כוננים משותפים - לאחר ההדבקה הוירוס עבר על מערכת הקבצים, כולל על כל הכוננים
+ המשותפים, והחליף כל קובץ
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+\lang english
+vbs
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+בעותק של הוירוס עצמו.
+ וכן כל קובץ מדיה )למשל
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+\lang english
+song.mp3
+\lang hebrew
+( בעותק של הוירוס )למשל -
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+\lang english
+song.mp3.vbs
+\lang hebrew
+( כך גם מחשבים אחרים שניגשו לקבצים באותם כוננים משותפים נדבקו בווירוס ברגע
+ שניסו לפתוח את אחד הקבצים הללו.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+מרגע שהוירוס הופעל הוא פגע בקבצים חיוניים במערכת וכן שלח את עצמו לכל רשימת
+ התפוצה של המחשב המודבק.
+ מספר הודעות הדואר האלקטרוני שהועברו ברשת כתוצאה מההדבקות גדל במהירות והציף
+ שרתי דואר אלקטרוני רבים, תוך שהוא מביא לקריסתם - ובכך לניטרול שירותי הדואר
+ האלקטרוני שסיפקו אותם שרתים.
+\end_layout
+
+\begin_layout Enumerate
+מעבר לנזק שתואר לעיל לשרתי הדואר האלקטרוני עקב שליחת כמויות גדולות של הודעות
+ הוירוס גרם גם נזקים בכך שהודבק.
+ הנזקים כללו - 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+מחיקת קבצי מדיה וקבצי
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+\lang english
+vbs
+\lang hebrew
+.
+ 
+\end_layout
+
+\begin_layout Itemize
+הווירס שינה את דף הבית של המשתמש לדף זדוני שיגרום לו להוריד קובץ הרצה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+)
+\lang english
+exe
+\lang hebrew
+( זדוני.
+ קובץ זה נוסף תהליך ההפעלה של המחשב, כך שיורץ בכל פעם שמערכת ההפעלה עולה.
+ לאחר ששינוי זה בוצע דף הבית שונה שוב ל-
+\lang english
+about:blank
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+)דף ריק(.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+קיימים מספר צעדים פשוטים שיכלו למנוע הידבקות בווירוס -
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+הימנעות מפתיחת קבצים מצורפים להודעות דואר אלקטרוני )כולל קבצים תמימים לכאורה,
+ וקבצים שהגיעו ממקורות מוכרים(.
+\end_layout
+
+\begin_layout Itemize
+שינוי ההגדרה במערכת ההפעלה כך שלא תסתיר סיומות מוכרות.
+\end_layout
+
+\begin_layout Itemize
+כיבוי
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+\lang english
+Windows Scripting Host
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+- כך שלא ניתן יהיה להריץ קבצי
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+\lang english
+vbs
+\lang hebrew
+.
+\end_layout
+
+\begin_layout Itemize
+שימוש במערכת הפעלה אחרת )למשל -
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+\lang english
+Linux
+\lang hebrew
+(.
+\end_layout
+
+\begin_layout Standard
+ברוב המקרים לא ניתן להתגבר על הנזק שגרם הווירוס לאחר ההדבקה, כיוון שקבצים
+ רבים נמחקים.
+ במקרים מסויימים ניתן, אולי, לבצע שחזור של הקבצים בהליך הסטנדרטי של שחזור
+ קבצים שנמחקו, אולם תהליך זה אינו מובטח והוא מועד לטעויות.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+סכמת האימות של השרת היא כדלהלן -
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+בקש ססמא מהלקוח
+\end_layout
+
+\begin_layout Enumerate
+חשב את תמצות הססמא לפי אלגוריתם
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+\lang english
+MD5
+\end_layout
+
+\begin_layout Enumerate
+השווה את ערך התמצות שהתקבל לערך תמצות ידוע, שחושב על הססמא המקורית
+\end_layout
+
+\begin_layout Enumerate
+אם הערכים זהים - אשר כניסה, אחרת - נתק את החיבור
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+פרסום קוד המקור של המוצר באתר החברה עשוי לסייע באבטחה כיוון שמומחי אבטחה
+ מרחבי העולם יוכלו לבחון את הקוד ולהתריע על פרצות וחולשות.
+ ככל שיותר עיניים עוברות על הקוד כך הסיכוי שבאג או פרצת אבטחה יחמקו מכולם
+ קטן.
+ מאידך, פרסום קוד המקור של המוצר עשוי לסייע לתוקפים לאתר פרצות אבטחה בצורה
+ יעילה יותר, תהליך שהיה עשוי לקחת להם זמן ארוך יותר אילו קוד המקור לא היה
+ בידיהם - ובכך הופך את המוצר לפגיע יותר.
+\end_layout
+
+\begin_layout Enumerate
+...
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+כתובת הפקודה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+\lang english
+ret
+\lang hebrew
+ של
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+\lang english
+check_password_login
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+\lang hebrew
+ היא ב-
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+\lang english
+6666126B
+\end_layout
+
+\begin_layout Enumerate
+כתובת הפקודה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+\lang english
+ret
+\lang hebrew
+ של
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+\lang english
+grant_access
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+\lang hebrew
+ היא ב-
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+\lang english
+66661349
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+מיד לאחר ה-
+\lang english
+ret
+\lang hebrew
+-ים יופעלו הפקודות - 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+בכתובת
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+\lang english
+6666115E
+\end_layout
+
+\begin_layout Enumerate
+בכתובת
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+\lang english
+666611C9
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+הקריאה ל-
+\lang english
+printf
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+שמדפיסה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+\lang english
+access granted
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+נמצאת בכתובת -
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+\lang english
+6666116F
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+צורת ההגנה בגרסה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\noun default
+\color inherit
+1.0
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+איננה מספקת.
+ תוקף יכול לחלץ את תוכן הקובץ המקורי ע"י קריאתו מתוך קובץ ההרצה הנתון, בנוסף
+ - התוקף יכול גם לקרא את הססמא שבה השתמשנו להצפנה - כיוון שגם היא מופיעה
+ כלשונה בקובץ ה"מוגן".
+\end_layout
+
+\begin_layout Enumerate
+גם צורת ההגנה בגרסה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\noun default
+\color inherit
+1.1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+אינה מספקת.
+ התוקף עדיין יכול לחלץ את תוכן הקובץ המקורי בקלות כיוון שזה עדיין איננו
+ מוצפן.
+ אולם - תחת ההנחה שהפונקציה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+\lang english
+h
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+\lang hebrew
+ מעבירה קלטים שונים לפלטים שונים בסבירות גבוהה )למשל - לא פונקציה שמחזירה
+ תמיד 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\noun default
+\color inherit
+0
+\numeric off
+( המנגנון המתואר הוא למעשה תמצות של הססמא - כך שתוקף לא יוכל לחלץ מתוך הקובץ
+ את הססמא שבה השתמשנו.
+\end_layout
+
+\begin_layout Enumerate
+גם צורת ההגנה בגרסה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\noun default
+\color inherit
+2.0
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+אינה מספקת.
+ הסתמכות על מנגנון מניעת גישה המצוי במערכת ההפעלה היא שגיאה.
+ ניתן לגשת לאותו קובץ ממערכת הפעלה אחרת ובכך לעקוף את מנגנון ההגנה.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+הצופן החדש אינו בטוח כלל.
+ נראה כי מספיק זוג ידוע אחד 
+\begin_inset Formula $\left(\mbox{P,C}\right)$
+\end_inset
+
+ )בהתקפת
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+\lang english
+Known Plaintext
+\lang hebrew
+( של טקסט גלוי ומוצפן ופעולות שניתן לבצע ב-
+\begin_inset Formula $O\left(1\right)$
+\end_inset
+
+ על מנת לפענח כל טקסט מוצן אחר -
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+ה-
+\lang english
+S-Box
+\lang hebrew
+ים הפיכים ואינם תלויים במפתח.
+ ביצוע
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\noun default
+\color inherit
+10
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+פעולות
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+\lang english
+Byte Substitution
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+ברצף גם הוא הפיך ואינו תלוי במפתח, ובהנתן טקסט מוצפן כלשהו
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ כלשהו 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+\lang english
+C
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+ניתן לחשב בקלות את הטקסט ממנו הוא נגזר בשלב שלפני הפעלת ה-
+\lang english
+S-Box
+\lang hebrew
+ים.
+ קיבלנו כי בהנתן טקסט מוצפן
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+\lang english
+C
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+ניתן לחשב ממנו
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+\lang english
+C'
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+שנגזר מהטקסט הגלוי
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+\lang english
+P
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+ע"י רצף של פעולות לינאריות )
+\lang english
+Key Mixing, Shift Row, Mix Column
+\lang hebrew
+(.
+ כפי שראינו בתרגול בהנתן שהצופן לינארי )וזה אכן המצב, כי השלב הלא לינארי
+ אחרון והפיך( זוג אחד של טקסט גלוי ומוצפן מספיקים על מנת לפענח כל טקסט מוצפן
+ ב-
+\begin_inset Formula $O\left(1\right)$
+\end_inset
+
+, כיוון שניתן להגדיר - 
+\begin_inset Formula \[
+AES'\left(P\right)=f\left(P\right)\oplus g\left(k\right)\]
+
+\end_inset
+
+כאשר 
+\begin_inset Formula $f,g$
+\end_inset
+
+ פונקציות ידועות )ממבנה הצופן כפי שפורט( ונקבל - 
+\begin_inset Formula \[
+K'\triangleq g\left(k\right)=C\oplus f\left(P\right)\]
+
+\end_inset
+
+ואז בהנתן טקסט מוצפן חדש
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+\lang english
+C'
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+נקבל כי הפענוח שלה נתון ע"י - 
+\begin_inset Formula \[
+P'=f^{-1}\left(C'\right)\oplus K'=f^{-1}\left(C'\right)\oplus C\oplus f\left(P\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+גם וריאנט זה אינו בטוח כלל.
+ נראה התקפה באותם תנאים -
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+בהנתן זוג ידוע אחד 
+\begin_inset Formula $\left(\mbox{P,C}\right)$
+\end_inset
+
+ נסמן - 
+\end_layout
+
+\begin_layout Enumerate
+את הטקסט אחרי ביצוע שני השלבים הראשונים )קרי -
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+\lang english
+Shift Row, Mix Column
+\lang hebrew
+( ב-
+\begin_inset Formula $T_{1}$
+\end_inset
+
+, טקסט זה ידוע כיוון שבשני השלבים הראשונים כלל לא מתבצע שימוש במפתח.
+\end_layout
+
+\begin_layout Enumerate
+את הטקסט לאחר ביצוע
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+\lang english
+Byte Substitutions
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+ב-
+\begin_inset Formula $T_{2}$
+\end_inset
+
+ - גם הטקסט הזה ידוע, כיוון שגם כאן לא מתבצע שימוש במפתח.
+\end_layout
+
+\begin_layout Standard
+כפי שראינו לעיל, השלב האחרון בצופן )
+\lang english
+Key Mixing
+\lang hebrew
+( הוא לינארי, ולכן בהינתן 
+\begin_inset Formula $T_{2},C$
+\end_inset
+
+ ניתן לחשב לכל 
+\begin_inset Formula $C'$
+\end_inset
+
+ חדש שנקבל את 
+\begin_inset Formula $T_{2}'$
+\end_inset
+
+ באותו אופן כמו בסעיף א'.
+\end_layout
+
+\begin_layout Standard
+שלב ה-
+\lang english
+Byte Substitutions
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+הפיך, ולכן בהינתן 
+\begin_inset Formula $T_{2}'$
+\end_inset
+
+ ניתן לחשב את 
+\begin_inset Formula $T_{1}'$
+\end_inset
+
+ באמצעות טבלה שידועה לכל.
+\end_layout
+
+\begin_layout Standard
+שני השלבים הראשונים )קרי -
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+\lang english
+Shift Row, Mix Column
+\lang hebrew
+( הם לינאריים ואינם משתמשים כלל במפתח, לכן ניתן להגדיר 
+\begin_inset Formula $f^{-1}$
+\end_inset
+
+ שתעביר כל 
+\begin_inset Formula $T_{1}'$
+\end_inset
+
+ ל-
+\begin_inset Formula $P'$
+\end_inset
+
+ ממנו נוצר )לחילופין - כיוון ששני השלבים לינאריים ניתן להשתמש בשיטה שפרטנו
+ בסעיף א' - ולמעשה תוביל לאותה התוצאה בדיוק(.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+נראה כיצד הצעה זו חשופה להתקפת טבלה -
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+הפעולה היחידה שאיננה משפיעה על כל
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+\lang english
+byte
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+בנפרד היא פעולת
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+\lang english
+Mix Columns
+\lang hebrew
+, כיוון שפעולה זו מתבצעת
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\noun default
+\color inherit
+9
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+פעמים ברצף - היא למעשה שקולה לביצוע פעולה אחת כזו )עם פונקציות מורכבות יותר(.
+\end_layout
+
+\begin_layout Standard
+שלושת השלבים האמצעיים בהצעה ידועים לכל, בפרט קל לחשב איזה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+\lang english
+byte
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+בקלט משפיע על איזה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+\lang english
+byte
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+בשלב ה-
+\lang english
+MC
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+ולכן גם על איזה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+\lang english
+byte
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+בפלט ולקבץ את הקלטים והפלטים לבלוקים של ארבעה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+\lang english
+byte
+\lang hebrew
+.
+ נסמן את ארבעת הבלוקים בקלט ב-
+\begin_inset Formula $P_{1},P_{2},P_{3},P_{4}$
+\end_inset
+
+ ובפלט המוצפן ב-
+\begin_inset Formula $C_{1},C_{2},C_{3},C_{4}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נרצה לבנות טבלת המרה לכל זוג אפשרי של 
+\begin_inset Formula $P_{1},C_{1}$
+\end_inset
+
+, כיוון שהבלוקים בגודל 
+\begin_inset Formula $4\mbox{ byte}$
+\end_inset
+
+, יש 
+\begin_inset Formula $2^{32}$
+\end_inset
+
+ בלוקים כאלו.
+ כלומר - כדי לבנות טבלה עבור הבלוק המסומן 
+\begin_inset Formula $P_{1}$
+\end_inset
+
+ על התוקף לבחור 
+\begin_inset Formula $2^{32}$
+\end_inset
+
+ הודעות להצפנה.
+ באותו האופן נרצה לבנות טבלה עבור הבלוקים האחרים, וניתן לעשות זאת באותן
+ 
+\begin_inset Formula $2^{32}$
+\end_inset
+
+ ההודעות שהוזכרו לעיל )כיוון שכאמור הבלוקים השונים אינם משפיעים זה על זה(.
+\end_layout
+
+\begin_layout Standard
+לסיכום - התקפת
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+\lang english
+Chosen Plaintext
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+שבה שולחים 
+\begin_inset Formula $2^{32}$
+\end_inset
+
+ הודעות תאפשר לנו לבנות
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\noun default
+\color inherit
+4
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+טבלאות, שכל אחת מהן בגודל - 
+\begin_inset Formula \[
+\left(\underbrace{32}_{\stackrel{\mbox{plaintext}}{{\scriptscriptstyle \mbox{block}}}}+\underbrace{32}_{\stackrel{\mbox{chipertext}}{{\scriptscriptstyle \mbox{block}}}}\right)\cdot\underbrace{2^{32}}_{\stackrel{\mbox{different}}{{\scriptscriptstyle \mbox{blocks}}}}=2^{38}\mbox{bits}=32\mbox{GByte}\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+
+\end_layout
+
+\end_deeper
+\end_body
+\end_document
