@@ -1221,6 +1221,268 @@ h
  ניתן לגשת לאותו קובץ ממערכת הפעלה אחרת ובכך לעקוף את מנגנון ההגנה.
 \end_layout
 
+\begin_layout Enumerate
+השימוש במחרוזת
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+\lang english
+Access granted
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+נמצא בכתובת
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+\lang english
+0040205B
+\end_layout
+
+\begin_layout Enumerate
+השימוש במחרוזת
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+\lang english
+Access denied
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+נמצא בכתובת 
+\lang english
+00402081
+\end_layout
+
+\begin_layout Enumerate
+ההסתעפות נמצאת בכתובת 
+\lang english
+00402059
+\end_layout
+
+\begin_layout Enumerate
+אם נשנה את פקודת
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+\lang english
+jz
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+שנמצאת בכתובת מסעיף ו' לפקודת
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+\lang english
+jnz
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+כל ססמא פרט לססמא המקורית תאפשר גישה.
+ השינוי מבחינת הקוד ההקסדצימלי של התוכנה הוא בסה"כ שינוי של הקוד
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\noun default
+\color inherit
+74
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\noun off
+\color none
+ )
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+\lang english
+jz
+\lang hebrew
+( ל-
+\numeric on
+75
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\noun off
+\color none
+ )
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+\lang english
+jnz
+\lang hebrew
+(.
+\end_layout
+
+\begin_layout Enumerate
+במקום להגריל מפתח אקראי ולהצפין את הקובץ בעזרתו - הססמא תשמש כמפתח ההצפנה
+ של הקובץ.
+\end_layout
+
 \end_deeper
 \begin_layout Enumerate
 \begin_inset space ~
@@ -2157,10 +2419,6 @@ Chosen Plaintext
 \end_layout
 
 \end_deeper
-\begin_layout Standard
-
-\end_layout
-
 \end_deeper
 \end_body
 \end_document
