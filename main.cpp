@@ -79,7 +79,8 @@ int main(int argc, char **argv)
 // returns true iff 'recvbuf' contains a valid password
 // uses CMD5 class that implements the MD5 hash algorithm
 bool check_password_login(char *recvbuf) {
-	char password[16+1];					// at most 16 characters + terminating '\0'
+	char password[16+1];// at most 16 characters + terminating '\0'
+	recvbuf[16] = '\0'; // limit recvbuf to 16 chars
 	strcpy(password, recvbuf);				// create working copy from network buffer	
 
 	// hash text up to and excluding 1st newline
